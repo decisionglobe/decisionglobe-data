@@ -1,0 +1,15 @@
+{
+  "packageVersion": "2026.08.01-v1",
+  "toolId": "DG-000044",
+  "benchmark": {
+    "seriesId": "TERMCBPER24NS",
+    "value": 11.9,
+    "observationDate": "2026-08-01",
+    "source": "Federal Reserve G.19 via FRED",
+    "retrievedAt": "2026-10-18T13:22:14.473Z",
+    "isFallback": false,
+    "isStale": false,
+    "stalenessDays": 78
+  },
+  "publishedAt": "2026-10-18T13:22:14.477Z"
+}
