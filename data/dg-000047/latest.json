@@ -1,31 +1,31 @@
 {
-  "packageVersion": "v2026.1018.194138",
-  "generatedAtIso": "2026-10-18T19:41:43.404Z",
-  "buildContext": "55ea9d03daa088491030a5e260d156151e3224c4",
+  "packageVersion": "v2026.1018.194327",
+  "generatedAtIso": "2026-10-18T19:43:33.105Z",
+  "buildContext": "ba956f6184f6afa79f4dda9a2417f26b86eda377",
   "status": "VALIDATED",
   "provenance": {
     "epa": {
       "source": "EPA FuelEconomy.gov",
       "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
-      "retrievedAt": "2026-10-18T19:41:43.404Z",
+      "retrievedAt": "2026-10-18T19:43:33.105Z",
       "vehicleCount": 19
     },
     "eia": {
       "source": "U.S. Energy Information Administration (EIA)",
       "sourceUrl": "https://www.eia.gov/opendata/",
-      "retrievedAt": "2026-10-18T19:41:43.404Z",
+      "retrievedAt": "2026-10-18T19:43:33.105Z",
       "stateCount": 51
     },
     "stations": {
       "source": "NLR Alternative Fuel Stations API",
       "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
-      "retrievedAt": "2026-10-18T19:41:43.404Z",
+      "retrievedAt": "2026-10-18T19:43:33.105Z",
       "totalStationsUs": 62437
     },
     "openei": {
       "source": "OpenEI Utility Rate Database (URDB v7)",
       "sourceUrl": "https://openei.org/services/doc/rest/util_rates/",
-      "retrievedAt": "2026-10-18T19:41:43.404Z",
+      "retrievedAt": "2026-10-18T19:43:33.105Z",
       "jurisdictionsCount": 10,
       "operatingUtilitiesCount": 12,
       "rateSchedulesCount": 12,
@@ -34,7 +34,7 @@
     "policy": {
       "source": "AFDC / NCSL Statutory Database",
       "sourceUrl": "https://afdc.energy.gov/laws/state",
-      "retrievedAt": "2026-10-18T19:41:43.404Z",
+      "retrievedAt": "2026-10-18T19:43:33.105Z",
       "policyStateCount": 51
     },
     "classificationSummary": {
@@ -798,7 +798,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.CA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SCA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T19:41:38.552Z",
+        "retrievedAtIso": "2026-10-18T19:43:27.859Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -904,7 +904,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SFL_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T19:41:41.715Z",
+        "retrievedAtIso": "2026-10-18T19:43:31.332Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1388,7 +1388,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.NY-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SNY_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T19:41:40.591Z",
+        "retrievedAtIso": "2026-10-18T19:43:30.239Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1620,7 +1620,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.TX-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_STX_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T19:41:39.728Z",
+        "retrievedAtIso": "2026-10-18T19:43:29.153Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1705,7 +1705,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SWA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T19:41:42.603Z",
+        "retrievedAtIso": "2026-10-18T19:43:32.186Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
