@@ -6,10 +6,10 @@
     "value": 11.9,
     "observationDate": "2026-08-01",
     "source": "Federal Reserve G.19 via FRED",
-    "retrievedAt": "2026-10-18T18:16:56.742Z",
+    "retrievedAt": "2026-10-18T20:28:01.010Z",
     "isFallback": false,
     "isStale": false,
     "stalenessDays": 78
   },
-  "publishedAt": "2026-10-18T18:16:56.743Z"
+  "publishedAt": "2026-10-18T20:28:01.010Z"
 }
