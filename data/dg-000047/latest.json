@@ -1,37 +1,37 @@
 {
-  "packageVersion": "v2026.1018.114217",
-  "generatedAtIso": "2026-10-18T11:44:28.374Z",
+  "packageVersion": "v2026.1018.121525",
+  "generatedAtIso": "2026-10-18T12:17:13.483Z",
   "buildContext": "local-staging-worker",
   "status": "VALIDATED",
   "provenance": {
     "epa": {
       "source": "EPA FuelEconomy.gov",
       "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
-      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "retrievedAt": "2026-10-18T12:17:13.483Z",
       "vehicleCount": 4
     },
     "eia": {
       "source": "U.S. Energy Information Administration (EIA)",
       "sourceUrl": "https://www.eia.gov/opendata/",
-      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "retrievedAt": "2026-10-18T12:17:13.483Z",
       "stateCount": 5
     },
     "stations": {
       "source": "NLR Alternative Fuel Stations API",
       "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
-      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "retrievedAt": "2026-10-18T12:17:13.483Z",
       "totalStationsUs": 40337
     },
     "openei": {
       "source": "OpenEI Utility Rate Database (URDB v7)",
       "sourceUrl": "https://openei.org/wiki/Utility_Rate_Database",
-      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "retrievedAt": "2026-10-18T12:17:13.483Z",
       "utilityCount": 4
     },
     "policy": {
       "source": "AFDC / NCSL Statutory Database",
       "sourceUrl": "https://afdc.energy.gov/laws/state",
-      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "retrievedAt": "2026-10-18T12:17:13.483Z",
       "policyStateCount": 5
     }
   },
@@ -449,8 +449,8 @@
       "WA": {
         "stateCode": "WA",
         "stateName": "Washington",
-        "residentialElectricityCentsPerKwh": 12.1,
-        "residentialElectricityDollarsPerKwh": 0.121,
+        "residentialElectricityCentsPerKwh": 14.71,
+        "residentialElectricityDollarsPerKwh": 0.1471,
         "evTouOffPeakDollarsPerKwh": 0.088,
         "regularGasolineDollarsPerGallon": 5.377,
         "premiumGasolineDollarsPerGallon": 5.72,
@@ -462,14 +462,14 @@
         "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
         "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SWA_DPG.W",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T12:17:11.972Z",
         "verifiedOn": "2026-10-18"
       },
       "FL": {
         "stateCode": "FL",
         "stateName": "Florida",
-        "residentialElectricityCentsPerKwh": 15.4,
-        "residentialElectricityDollarsPerKwh": 0.154,
+        "residentialElectricityCentsPerKwh": 15.03,
+        "residentialElectricityDollarsPerKwh": 0.1503,
         "evTouOffPeakDollarsPerKwh": 0.102,
         "regularGasolineDollarsPerGallon": 3.982,
         "premiumGasolineDollarsPerGallon": 4.41,
@@ -481,7 +481,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
         "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SFL_DPG.W",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T12:16:56.284Z",
         "verifiedOn": "2026-10-18"
       },
       "NY": {
