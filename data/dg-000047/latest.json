@@ -1,38 +1,47 @@
 {
-  "packageVersion": "v2026.1018.122556",
-  "generatedAtIso": "2026-10-18T12:26:18.997Z",
+  "packageVersion": "v2026.1018.131708",
+  "generatedAtIso": "2026-10-18T13:17:30.618Z",
   "buildContext": "local-staging-worker",
   "status": "VALIDATED",
   "provenance": {
     "epa": {
       "source": "EPA FuelEconomy.gov",
       "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
-      "retrievedAt": "2026-10-18T12:26:18.997Z",
+      "retrievedAt": "2026-10-18T13:17:30.618Z",
       "vehicleCount": 19
     },
     "eia": {
       "source": "U.S. Energy Information Administration (EIA)",
       "sourceUrl": "https://www.eia.gov/opendata/",
-      "retrievedAt": "2026-10-18T12:26:18.998Z",
+      "retrievedAt": "2026-10-18T13:17:30.618Z",
       "stateCount": 51
     },
     "stations": {
       "source": "NLR Alternative Fuel Stations API",
       "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
-      "retrievedAt": "2026-10-18T12:26:18.998Z",
+      "retrievedAt": "2026-10-18T13:17:30.618Z",
       "totalStationsUs": 62437
     },
     "openei": {
       "source": "OpenEI Utility Rate Database (URDB v7)",
       "sourceUrl": "https://openei.org/services/doc/rest/util_rates/",
-      "retrievedAt": "2026-10-18T12:26:18.998Z",
-      "utilityCount": 8
+      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "jurisdictionsCount": 10,
+      "operatingUtilitiesCount": 12,
+      "rateSchedulesCount": 12,
+      "utilityCount": 10
     },
     "policy": {
       "source": "AFDC / NCSL Statutory Database",
       "sourceUrl": "https://afdc.energy.gov/laws/state",
-      "retrievedAt": "2026-10-18T12:26:18.998Z",
+      "retrievedAt": "2026-10-18T13:17:30.618Z",
       "policyStateCount": 51
+    },
+    "classificationSummary": {
+      "liveObservationsCount": 10,
+      "snapshotVerifiedCount": 46,
+      "modelEstimatesCount": 41,
+      "summary": "Live observations: 10 | Verified snapshots: 46 | Model estimates: 41"
     }
   },
   "vehicles": {
@@ -52,7 +61,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47908",
         "sourceDataset": "EPA Vehicles REST API (ID: 47908)",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47907",
@@ -69,7 +79,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47907",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47910",
@@ -86,7 +97,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47910",
         "sourceDataset": "EPA Vehicles REST API (ID: 47910)",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47909",
@@ -103,7 +115,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47909",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47800",
@@ -120,7 +133,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47800",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47620",
@@ -137,7 +151,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47620",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47650",
@@ -154,7 +169,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47650",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47660",
@@ -171,7 +187,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47660",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47670",
@@ -188,7 +205,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47670",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47750",
@@ -205,7 +223,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47750",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47760",
@@ -222,7 +241,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47760",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47770",
@@ -239,7 +259,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47770",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47510",
@@ -257,7 +278,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47510",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47500",
@@ -275,7 +297,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47500",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47520",
@@ -293,7 +316,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47520",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47300",
@@ -311,7 +335,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47300",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47310",
@@ -329,7 +354,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47310",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47110",
@@ -347,7 +373,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47110",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       },
       {
         "id": "epa-47130",
@@ -365,7 +392,8 @@
         "source": "EPA FuelEconomy.gov",
         "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47130",
         "sourceDataset": "EPA Vehicles REST API",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "dataSource": "snapshot_verified"
       }
     ],
     "archetypes": {
@@ -686,7 +714,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "AK": {
         "stateCode": "AK",
@@ -704,7 +735,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R50_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "AZ": {
         "stateCode": "AZ",
@@ -722,7 +756,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R50_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "AR": {
         "stateCode": "AR",
@@ -740,7 +777,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "CA": {
         "stateCode": "CA",
@@ -758,8 +798,11 @@
         "eiaSeriesElectricity": "ELEC.SALES.CA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SCA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "retrievedAtIso": "2026-10-18T13:17:10.289Z",
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "CO": {
         "stateCode": "CO",
@@ -777,7 +820,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SCO_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "snapshot_verified",
+        "evTouDataSource": "model_estimate"
       },
       "CT": {
         "stateCode": "CT",
@@ -795,7 +841,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1X_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "DE": {
         "stateCode": "DE",
@@ -813,7 +862,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Y_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "DC": {
         "stateCode": "DC",
@@ -831,7 +883,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Y_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "FL": {
         "stateCode": "FL",
@@ -849,8 +904,11 @@
         "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SFL_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T12:26:17.284Z",
-        "verifiedOn": "2026-10-18"
+        "retrievedAtIso": "2026-10-18T13:17:15.410Z",
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "GA": {
         "stateCode": "GA",
@@ -868,7 +926,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Z_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "HI": {
         "stateCode": "HI",
@@ -886,7 +947,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R50_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "ID": {
         "stateCode": "ID",
@@ -904,7 +968,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R40_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "IL": {
         "stateCode": "IL",
@@ -922,7 +989,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "IN": {
         "stateCode": "IN",
@@ -940,7 +1010,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SIN_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "snapshot_verified",
+        "evTouDataSource": "model_estimate"
       },
       "IA": {
         "stateCode": "IA",
@@ -958,7 +1031,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "KS": {
         "stateCode": "KS",
@@ -976,7 +1052,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "KY": {
         "stateCode": "KY",
@@ -994,7 +1073,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "LA": {
         "stateCode": "LA",
@@ -1012,7 +1094,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "ME": {
         "stateCode": "ME",
@@ -1030,7 +1115,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1X_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "MD": {
         "stateCode": "MD",
@@ -1048,7 +1136,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Y_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "MA": {
         "stateCode": "MA",
@@ -1066,7 +1157,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SMA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "snapshot_verified",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "MI": {
         "stateCode": "MI",
@@ -1084,7 +1178,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "MN": {
         "stateCode": "MN",
@@ -1102,7 +1199,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SMN_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "snapshot_verified",
+        "evTouDataSource": "model_estimate"
       },
       "MS": {
         "stateCode": "MS",
@@ -1120,7 +1220,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "MO": {
         "stateCode": "MO",
@@ -1138,7 +1241,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "MT": {
         "stateCode": "MT",
@@ -1156,7 +1262,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R40_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NE": {
         "stateCode": "NE",
@@ -1174,7 +1283,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NV": {
         "stateCode": "NV",
@@ -1192,7 +1304,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R50_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NH": {
         "stateCode": "NH",
@@ -1210,7 +1325,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1X_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NJ": {
         "stateCode": "NJ",
@@ -1228,7 +1346,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Y_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NM": {
         "stateCode": "NM",
@@ -1246,7 +1367,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "NY": {
         "stateCode": "NY",
@@ -1264,8 +1388,11 @@
         "eiaSeriesElectricity": "ELEC.SALES.NY-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SNY_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T12:26:16.241Z",
-        "verifiedOn": "2026-10-18"
+        "retrievedAtIso": "2026-10-18T13:17:14.267Z",
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "NC": {
         "stateCode": "NC",
@@ -1283,7 +1410,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Z_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "ND": {
         "stateCode": "ND",
@@ -1301,7 +1431,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "OH": {
         "stateCode": "OH",
@@ -1319,7 +1452,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SOH_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "snapshot_verified",
+        "evTouDataSource": "model_estimate"
       },
       "OK": {
         "stateCode": "OK",
@@ -1337,7 +1473,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R30_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "OR": {
         "stateCode": "OR",
@@ -1355,7 +1494,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R50_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "PA": {
         "stateCode": "PA",
@@ -1373,7 +1515,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Y_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "RI": {
         "stateCode": "RI",
@@ -1391,7 +1536,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1X_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "SC": {
         "stateCode": "SC",
@@ -1409,7 +1557,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Z_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "SD": {
         "stateCode": "SD",
@@ -1427,7 +1578,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "TN": {
         "stateCode": "TN",
@@ -1445,7 +1599,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "TX": {
         "stateCode": "TX",
@@ -1463,8 +1620,11 @@
         "eiaSeriesElectricity": "ELEC.SALES.TX-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_STX_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T12:26:15.106Z",
-        "verifiedOn": "2026-10-18"
+        "retrievedAtIso": "2026-10-18T13:17:13.064Z",
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "UT": {
         "stateCode": "UT",
@@ -1482,7 +1642,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R40_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "VT": {
         "stateCode": "VT",
@@ -1500,7 +1663,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1X_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "VA": {
         "stateCode": "VA",
@@ -1518,7 +1684,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Z_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "WA": {
         "stateCode": "WA",
@@ -1536,8 +1705,11 @@
         "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SWA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T12:26:18.302Z",
-        "verifiedOn": "2026-10-18"
+        "retrievedAtIso": "2026-10-18T13:17:16.489Z",
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
+        "evTouDataSource": "utility_tariff_snapshot"
       },
       "WV": {
         "stateCode": "WV",
@@ -1555,7 +1727,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R1Z_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "WI": {
         "stateCode": "WI",
@@ -1573,7 +1748,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R20_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       },
       "WY": {
         "stateCode": "WY",
@@ -1591,7 +1769,10 @@
         "eiaSeriesGasoline": "EMM_EPMR_PTE_R40_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
-        "verifiedOn": "2026-10-18"
+        "verifiedOn": "2026-10-18",
+        "electricityDataSource": "snapshot_verified",
+        "gasolineDataSource": "model_estimate",
+        "evTouDataSource": "model_estimate"
       }
     }
   },
@@ -1895,6 +2076,21 @@
           "fixedMonthlyCharge": 15,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/5ca3ca845457a3e813a36220",
+          "dataSource": "snapshot_verified",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        },
+        {
+          "rateId": "sdge-tou-elec-2026",
+          "utilityName": "San Diego Gas & Electric (SDG&E)",
+          "rateName": "TOU-ELEC (Residential EV Time-of-Use Rate)",
+          "sector": "Residential",
+          "description": "SDG&E whole-home EV rate with super off-peak midnight-6am pricing ($0.15/kWh delivery + commodity)",
+          "isTimeOfUse": true,
+          "fixedMonthlyCharge": 16,
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/5ca3ca845457a3e813a36225",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1910,6 +2106,7 @@
           "fixedMonthlyCharge": 4.23,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f6cbdec4f024411ecdfef",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1925,6 +2122,7 @@
           "fixedMonthlyCharge": 17.5,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/5b0efc355457a36a7e025f16",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1940,6 +2138,7 @@
           "fixedMonthlyCharge": 9.35,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed078d",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1955,6 +2154,7 @@
           "fixedMonthlyCharge": 6.8,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed078e",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1970,6 +2170,7 @@
           "fixedMonthlyCharge": 15,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed078f",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -1985,6 +2186,7 @@
           "fixedMonthlyCharge": 14,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed0790",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
@@ -2000,6 +2202,39 @@
           "fixedMonthlyCharge": 10,
           "source": "OpenEI Utility Rate Database (URDB)",
           "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed0791",
+          "dataSource": "snapshot_verified",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ],
+      "MI": [
+        {
+          "rateId": "dte-ev-d1-9",
+          "utilityName": "DTE Energy (Michigan)",
+          "rateName": "Rate D1.9 (Whole Home Electric Vehicle Rate)",
+          "sector": "Residential",
+          "description": "DTE Energy whole-home EV Time-of-Day rate with overnight charging off-peak discount",
+          "isTimeOfUse": true,
+          "fixedMonthlyCharge": 8.5,
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed0792",
+          "dataSource": "snapshot_verified",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ],
+      "NC": [
+        {
+          "rateId": "duke-nc-schedule-ev",
+          "utilityName": "Duke Energy Carolinas (North Carolina)",
+          "rateName": "Schedule EV (Residential Electric Vehicle TOU Service)",
+          "sector": "Residential",
+          "description": "Duke Energy NC experimental residential time-of-use discount for plug-in electric vehicles",
+          "isTimeOfUse": true,
+          "fixedMonthlyCharge": 14,
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed0793",
+          "dataSource": "snapshot_verified",
           "retrievedAtIso": "2026-10-18T00:00:00.000Z",
           "verifiedOn": "2026-10-18"
         }
