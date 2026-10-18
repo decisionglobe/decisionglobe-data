@@ -1,0 +1,773 @@
+{
+  "packageVersion": "v2026.1018.114217",
+  "generatedAtIso": "2026-10-18T11:44:28.374Z",
+  "buildContext": "local-staging-worker",
+  "status": "VALIDATED",
+  "provenance": {
+    "epa": {
+      "source": "EPA FuelEconomy.gov",
+      "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
+      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "vehicleCount": 4
+    },
+    "eia": {
+      "source": "U.S. Energy Information Administration (EIA)",
+      "sourceUrl": "https://www.eia.gov/opendata/",
+      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "stateCount": 5
+    },
+    "stations": {
+      "source": "NLR Alternative Fuel Stations API",
+      "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
+      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "totalStationsUs": 40337
+    },
+    "openei": {
+      "source": "OpenEI Utility Rate Database (URDB v7)",
+      "sourceUrl": "https://openei.org/wiki/Utility_Rate_Database",
+      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "utilityCount": 4
+    },
+    "policy": {
+      "source": "AFDC / NCSL Statutory Database",
+      "sourceUrl": "https://afdc.energy.gov/laws/state",
+      "retrievedAt": "2026-10-18T11:44:28.374Z",
+      "policyStateCount": 5
+    }
+  },
+  "vehicles": {
+    "catalog": [
+      {
+        "id": "epa-47908",
+        "make": "Tesla",
+        "model": "Model 3 Long Range AWD",
+        "year": 2024,
+        "trim": "Auto (A1)",
+        "powertrain": "BEV",
+        "segment": "sedan",
+        "msrpBenchmark": 42490,
+        "combinedKwhPer100Miles": 25.84,
+        "electricRangeMiles": 342,
+        "batteryCapacityKwh": 78.1,
+        "source": "EPA FuelEconomy.gov",
+        "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47908",
+        "sourceDataset": "EPA Vehicles REST API (ID: 47908)",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "id": "epa-47910",
+        "make": "Tesla",
+        "model": "Model Y Long Range AWD",
+        "year": 2024,
+        "trim": "Auto (A1)",
+        "powertrain": "BEV",
+        "segment": "suv",
+        "msrpBenchmark": 47990,
+        "combinedKwhPer100Miles": 28,
+        "electricRangeMiles": 310,
+        "batteryCapacityKwh": 78.1,
+        "source": "EPA FuelEconomy.gov",
+        "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47910",
+        "sourceDataset": "EPA Vehicles REST API (ID: 47910)",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "id": "epa-47750",
+        "make": "Ford",
+        "model": "F-150 Lightning 4WD Extended Range",
+        "year": 2024,
+        "trim": "Auto",
+        "powertrain": "BEV",
+        "segment": "truck",
+        "msrpBenchmark": 69995,
+        "combinedKwhPer100Miles": 48,
+        "electricRangeMiles": 320,
+        "batteryCapacityKwh": 131,
+        "source": "EPA FuelEconomy.gov",
+        "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47750",
+        "sourceDataset": "EPA Vehicles REST API (ID: 47750)",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "id": "epa-47800",
+        "make": "Chevrolet",
+        "model": "Equinox EV FWD",
+        "year": 2024,
+        "trim": "Auto",
+        "powertrain": "BEV",
+        "segment": "compact",
+        "msrpBenchmark": 34995,
+        "combinedKwhPer100Miles": 31,
+        "electricRangeMiles": 319,
+        "batteryCapacityKwh": 85,
+        "source": "EPA FuelEconomy.gov",
+        "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47800",
+        "sourceDataset": "EPA Vehicles REST API (ID: 47800)",
+        "verifiedOn": "2026-10-18"
+      }
+    ],
+    "archetypes": {
+      "sedan": {
+        "BEV": {
+          "id": "epa-47908",
+          "make": "Tesla",
+          "model": "Model 3 Long Range AWD",
+          "year": 2024,
+          "trim": "Auto (A1)",
+          "powertrain": "BEV",
+          "segment": "sedan",
+          "msrpBenchmark": 42490,
+          "combinedKwhPer100Miles": 25.84,
+          "electricRangeMiles": 342,
+          "batteryCapacityKwh": 78.1,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47908",
+          "sourceDataset": "EPA Vehicles REST API (ID: 47908)",
+          "verifiedOn": "2026-10-18"
+        },
+        "PHEV": {
+          "id": "epa-47500",
+          "make": "Toyota",
+          "model": "Prius Prime",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "PHEV",
+          "segment": "sedan",
+          "msrpBenchmark": 32975,
+          "combinedKwhPer100Miles": 29,
+          "electricRangeMiles": 44,
+          "batteryCapacityKwh": 13.6,
+          "combinedMpg": 48,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47500",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "HEV": {
+          "id": "epa-47300",
+          "make": "Toyota",
+          "model": "Camry Hybrid LE",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "HEV",
+          "segment": "sedan",
+          "msrpBenchmark": 28855,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 1,
+          "combinedMpg": 51,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47300",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "ICE": {
+          "id": "epa-47100",
+          "make": "Honda",
+          "model": "Civic 2.0L",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "ICE",
+          "segment": "sedan",
+          "msrpBenchmark": 23950,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 0,
+          "combinedMpg": 35,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47100",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        }
+      },
+      "suv": {
+        "BEV": {
+          "id": "epa-47910",
+          "make": "Tesla",
+          "model": "Model Y Long Range AWD",
+          "year": 2024,
+          "trim": "Auto (A1)",
+          "powertrain": "BEV",
+          "segment": "suv",
+          "msrpBenchmark": 47990,
+          "combinedKwhPer100Miles": 28,
+          "electricRangeMiles": 310,
+          "batteryCapacityKwh": 78.1,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47910",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "PHEV": {
+          "id": "epa-47510",
+          "make": "Toyota",
+          "model": "RAV4 Prime",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "PHEV",
+          "segment": "suv",
+          "msrpBenchmark": 43690,
+          "combinedKwhPer100Miles": 36,
+          "electricRangeMiles": 42,
+          "batteryCapacityKwh": 18.1,
+          "combinedMpg": 38,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47510",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "HEV": {
+          "id": "epa-47310",
+          "make": "Honda",
+          "model": "CR-V Hybrid AWD",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "HEV",
+          "segment": "suv",
+          "msrpBenchmark": 34350,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 1.4,
+          "combinedMpg": 40,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47310",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "ICE": {
+          "id": "epa-47110",
+          "make": "Toyota",
+          "model": "RAV4 LE FWD",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "ICE",
+          "segment": "suv",
+          "msrpBenchmark": 28675,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 0,
+          "combinedMpg": 30,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47110",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        }
+      },
+      "compact": {
+        "BEV": {
+          "id": "epa-47800",
+          "make": "Chevrolet",
+          "model": "Equinox EV FWD",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "BEV",
+          "segment": "compact",
+          "msrpBenchmark": 34995,
+          "combinedKwhPer100Miles": 31,
+          "electricRangeMiles": 319,
+          "batteryCapacityKwh": 85,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47800",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "PHEV": {
+          "id": "epa-47520",
+          "make": "Kia",
+          "model": "Niro Plug-in Hybrid",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "PHEV",
+          "segment": "compact",
+          "msrpBenchmark": 34490,
+          "combinedKwhPer100Miles": 31,
+          "electricRangeMiles": 33,
+          "batteryCapacityKwh": 11.1,
+          "combinedMpg": 48,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47520",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "HEV": {
+          "id": "epa-47320",
+          "make": "Toyota",
+          "model": "Corolla Cross Hybrid",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "HEV",
+          "segment": "compact",
+          "msrpBenchmark": 28220,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 1,
+          "combinedMpg": 42,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47320",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "ICE": {
+          "id": "epa-47120",
+          "make": "Honda",
+          "model": "Civic Hatchback",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "ICE",
+          "segment": "compact",
+          "msrpBenchmark": 24950,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 0,
+          "combinedMpg": 35,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47120",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        }
+      },
+      "truck": {
+        "BEV": {
+          "id": "epa-47750",
+          "make": "Ford",
+          "model": "F-150 Lightning 4WD Extended",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "BEV",
+          "segment": "truck",
+          "msrpBenchmark": 69995,
+          "combinedKwhPer100Miles": 48,
+          "electricRangeMiles": 320,
+          "batteryCapacityKwh": 131,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47750",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "PHEV": {
+          "id": "epa-47530",
+          "make": "Ram",
+          "model": "1500 Ramcharger (EREV Benchmark)",
+          "year": 2025,
+          "trim": "Auto",
+          "powertrain": "PHEV",
+          "segment": "truck",
+          "msrpBenchmark": 65000,
+          "combinedKwhPer100Miles": 52,
+          "electricRangeMiles": 141,
+          "batteryCapacityKwh": 92,
+          "combinedMpg": 25,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47530",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "HEV": {
+          "id": "epa-47330",
+          "make": "Ford",
+          "model": "F-150 PowerBoost Hybrid 4WD",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "HEV",
+          "segment": "truck",
+          "msrpBenchmark": 58500,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 1.5,
+          "combinedMpg": 23,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47330",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        },
+        "ICE": {
+          "id": "epa-47130",
+          "make": "Ford",
+          "model": "F-150 3.5L EcoBoost 4WD",
+          "year": 2024,
+          "trim": "Auto",
+          "powertrain": "ICE",
+          "segment": "truck",
+          "msrpBenchmark": 52000,
+          "combinedKwhPer100Miles": 0,
+          "electricRangeMiles": 0,
+          "batteryCapacityKwh": 0,
+          "combinedMpg": 20,
+          "source": "EPA FuelEconomy.gov",
+          "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/47130",
+          "sourceDataset": "EPA Vehicles REST API",
+          "verifiedOn": "2026-10-18"
+        }
+      }
+    }
+  },
+  "energy": {
+    "nationalAverages": {
+      "residentialElectricityDollarsPerKwh": 0.168,
+      "regularGasolineDollarsPerGallon": 4.331,
+      "observationPeriod": "2026-W41"
+    },
+    "states": {
+      "CA": {
+        "stateCode": "CA",
+        "stateName": "California",
+        "residentialElectricityCentsPerKwh": 33.61,
+        "residentialElectricityDollarsPerKwh": 0.3361,
+        "evTouOffPeakDollarsPerKwh": 0.218,
+        "regularGasolineDollarsPerGallon": 6.104,
+        "premiumGasolineDollarsPerGallon": 6.45,
+        "electricityObservationPeriod": "2026-07",
+        "gasolineObservationPeriod": "2026-W41",
+        "hasDirectGasolineObservation": true,
+        "gasObservationGeographyLevel": "state",
+        "paddRegion": "PADD 5",
+        "eiaSeriesElectricity": "ELEC.SALES.CA-RES.M",
+        "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SCA_DPG.W",
+        "source": "U.S. Energy Information Administration (EIA)",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "TX": {
+        "stateCode": "TX",
+        "stateName": "Texas",
+        "residentialElectricityCentsPerKwh": 14.8,
+        "residentialElectricityDollarsPerKwh": 0.148,
+        "evTouOffPeakDollarsPerKwh": 0.095,
+        "regularGasolineDollarsPerGallon": 3.779,
+        "premiumGasolineDollarsPerGallon": 4.22,
+        "electricityObservationPeriod": "2026-07",
+        "gasolineObservationPeriod": "2026-W41",
+        "hasDirectGasolineObservation": true,
+        "gasObservationGeographyLevel": "state",
+        "paddRegion": "PADD 3",
+        "eiaSeriesElectricity": "ELEC.SALES.TX-RES.M",
+        "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_STX_DPG.W",
+        "source": "U.S. Energy Information Administration (EIA)",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "WA": {
+        "stateCode": "WA",
+        "stateName": "Washington",
+        "residentialElectricityCentsPerKwh": 12.1,
+        "residentialElectricityDollarsPerKwh": 0.121,
+        "evTouOffPeakDollarsPerKwh": 0.088,
+        "regularGasolineDollarsPerGallon": 5.377,
+        "premiumGasolineDollarsPerGallon": 5.72,
+        "electricityObservationPeriod": "2026-07",
+        "gasolineObservationPeriod": "2026-W41",
+        "hasDirectGasolineObservation": true,
+        "gasObservationGeographyLevel": "state",
+        "paddRegion": "PADD 5",
+        "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
+        "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SWA_DPG.W",
+        "source": "U.S. Energy Information Administration (EIA)",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "FL": {
+        "stateCode": "FL",
+        "stateName": "Florida",
+        "residentialElectricityCentsPerKwh": 15.4,
+        "residentialElectricityDollarsPerKwh": 0.154,
+        "evTouOffPeakDollarsPerKwh": 0.102,
+        "regularGasolineDollarsPerGallon": 3.982,
+        "premiumGasolineDollarsPerGallon": 4.41,
+        "electricityObservationPeriod": "2026-07",
+        "gasolineObservationPeriod": "2026-W41",
+        "hasDirectGasolineObservation": true,
+        "gasObservationGeographyLevel": "state",
+        "paddRegion": "PADD 1C",
+        "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
+        "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SFL_DPG.W",
+        "source": "U.S. Energy Information Administration (EIA)",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "NY": {
+        "stateCode": "NY",
+        "stateName": "New York",
+        "residentialElectricityCentsPerKwh": 24.5,
+        "residentialElectricityDollarsPerKwh": 0.245,
+        "evTouOffPeakDollarsPerKwh": 0.165,
+        "regularGasolineDollarsPerGallon": 4.353,
+        "premiumGasolineDollarsPerGallon": 4.89,
+        "electricityObservationPeriod": "2026-07",
+        "gasolineObservationPeriod": "2026-W41",
+        "hasDirectGasolineObservation": true,
+        "gasObservationGeographyLevel": "state",
+        "paddRegion": "PADD 1B",
+        "eiaSeriesElectricity": "ELEC.SALES.NY-RES.M",
+        "eiaSeriesGasoline": "PET.EMM_EPMR_PTE_SNY_DPG.W",
+        "source": "U.S. Energy Information Administration (EIA)",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      }
+    }
+  },
+  "stations": {
+    "stateSummary": {
+      "CA": {
+        "stateCode": "CA",
+        "totalStations": 21793,
+        "dcFastStations": 3026,
+        "level2Stations": 18450,
+        "topNetworks": [
+          "Tesla Supercharger",
+          "ChargePoint Network",
+          "EVgo",
+          "Electrify America",
+          "Shell Recharge"
+        ],
+        "topConnectorTypes": [
+          "J1772",
+          "J1772COMBO",
+          "TESLA",
+          "NACS",
+          "CHADEMO"
+        ]
+      },
+      "TX": {
+        "stateCode": "TX",
+        "totalStations": 4138,
+        "dcFastStations": 950,
+        "level2Stations": 3120,
+        "topNetworks": [
+          "Tesla Supercharger",
+          "ChargePoint Network",
+          "Electrify America",
+          "EVgo",
+          "Blink"
+        ],
+        "topConnectorTypes": [
+          "J1772",
+          "J1772COMBO",
+          "TESLA",
+          "NACS",
+          "CHADEMO"
+        ]
+      },
+      "WA": {
+        "stateCode": "WA",
+        "totalStations": 3444,
+        "dcFastStations": 560,
+        "level2Stations": 2840,
+        "topNetworks": [
+          "ChargePoint Network",
+          "Tesla Supercharger",
+          "Electrify America",
+          "EVgo",
+          "OpConnect"
+        ],
+        "topConnectorTypes": [
+          "J1772",
+          "J1772COMBO",
+          "TESLA",
+          "NACS",
+          "CHADEMO"
+        ]
+      },
+      "NY": {
+        "stateCode": "NY",
+        "totalStations": 6104,
+        "dcFastStations": 827,
+        "level2Stations": 5210,
+        "topNetworks": [
+          "ChargePoint Network",
+          "Tesla Supercharger",
+          "EVgo",
+          "Electrify America",
+          "EVolve NY"
+        ],
+        "topConnectorTypes": [
+          "J1772",
+          "J1772COMBO",
+          "TESLA",
+          "NACS",
+          "CHADEMO"
+        ]
+      },
+      "FL": {
+        "stateCode": "FL",
+        "totalStations": 4858,
+        "dcFastStations": 967,
+        "level2Stations": 3840,
+        "topNetworks": [
+          "Tesla Supercharger",
+          "ChargePoint Network",
+          "Electrify America",
+          "EVgo",
+          "FPL EVolution"
+        ],
+        "topConnectorTypes": [
+          "J1772",
+          "J1772COMBO",
+          "TESLA",
+          "NACS",
+          "CHADEMO"
+        ]
+      }
+    }
+  },
+  "utilityRates": {
+    "benchmarks": {
+      "CA": [
+        {
+          "rateId": "539f73e4ec4f024411ed01ed",
+          "utilityName": "City & County of San Francisco / PG&E Benchmark",
+          "rateName": "Residential Service (Tiered Baseline)",
+          "sector": "Residential",
+          "description": "Standard residential service with baseline and over-baseline energy tiers.",
+          "isTimeOfUse": false,
+          "effectiveDate": "2024-01-01",
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f73e4ec4f024411ed01ed",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        },
+        {
+          "rateId": "5c8a6f3b5457a3c74996929e",
+          "utilityName": "Pacific Gas & Electric Co (PG&E)",
+          "rateName": "Schedule EV2-A: Residential Time-of-Use Electric Vehicle",
+          "sector": "Residential",
+          "description": "Dedicated residential EV Time-of-Use rate with off-peak overnight charging window.",
+          "isTimeOfUse": true,
+          "effectiveDate": "2024-03-01",
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/5c8a6f3b5457a3c74996929e",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ],
+      "NY": [
+        {
+          "rateId": "539f70b3ec4f024411ecdd7d",
+          "utilityName": "Consolidated Edison Co-NY Inc",
+          "rateName": "SC 1 - Residential & Religious Distribution Service",
+          "sector": "Residential",
+          "description": "Standard residential distribution service with supply charges.",
+          "isTimeOfUse": false,
+          "effectiveDate": "2024-01-01",
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f70b3ec4f024411ecdd7d",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ],
+      "WA": [
+        {
+          "rateId": "539f6c1aec4f024411eca52d",
+          "utilityName": "City of Seattle, Washington (Seattle City Light)",
+          "rateName": "Schedule RSH-Residential",
+          "sector": "Residential",
+          "description": "Low-cost municipal hydro-dominated residential schedule.",
+          "isTimeOfUse": false,
+          "effectiveDate": "2024-01-01",
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f6c1aec4f024411eca52d",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ],
+      "FL": [
+        {
+          "rateId": "539f745aec4f024411ed078d",
+          "utilityName": "Florida Power & Light Co (FPL)",
+          "rateName": "RTR-1 Residential TOU Rate (RS-1 w/ TOU Rider)",
+          "sector": "Residential",
+          "description": "Residential optional time-of-use rider for off-peak EV charging.",
+          "isTimeOfUse": true,
+          "effectiveDate": "2024-01-01",
+          "source": "OpenEI Utility Rate Database (URDB)",
+          "sourceUrl": "https://apps.openei.org/IURDB/rate/view/539f745aec4f024411ed078d",
+          "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+          "verifiedOn": "2026-10-18"
+        }
+      ]
+    }
+  },
+  "policies": {
+    "federalBaseline": {
+      "irc30dMaxCreditNew": 0,
+      "irc25eMaxCreditUsed": 0,
+      "irc30cMaxChargerCredit": 0,
+      "defaultAppliedCredit": 0,
+      "verifiedEffectiveDate": "2026-10-01"
+    },
+    "states": {
+      "CA": {
+        "stateCode": "CA",
+        "stateName": "California",
+        "annualEvRegistrationFee": 108,
+        "annualPhevRegistrationFee": 0,
+        "annualHevRegistrationFee": 0,
+        "statutoryCitation": "Cal. Veh. Code § 9250.6",
+        "stateCleanVehicleRebate": 0,
+        "rebateProgramName": "Clean Vehicle Rebate Project (CVRP - Closed)",
+        "rebateStatus": "expired",
+        "source": "NCSL / AFDC State Laws and Incentives",
+        "sourceUrl": "https://afdc.energy.gov/laws/all?state=CA",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "TX": {
+        "stateCode": "TX",
+        "stateName": "Texas",
+        "annualEvRegistrationFee": 200,
+        "annualPhevRegistrationFee": 0,
+        "annualHevRegistrationFee": 0,
+        "statutoryCitation": "Tex. Transp. Code § 502.198",
+        "stateCleanVehicleRebate": 2500,
+        "rebateProgramName": "Texas Light-Duty Motor Vehicle Purchase or Lease Incentive Program (TERP)",
+        "rebateStatus": "active",
+        "source": "NCSL / AFDC State Laws and Incentives",
+        "sourceUrl": "https://afdc.energy.gov/laws/all?state=TX",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "WA": {
+        "stateCode": "WA",
+        "stateName": "Washington",
+        "annualEvRegistrationFee": 225,
+        "annualPhevRegistrationFee": 75,
+        "annualHevRegistrationFee": 0,
+        "statutoryCitation": "RCW 46.17.323",
+        "stateCleanVehicleRebate": 0,
+        "rebateStatus": "none",
+        "source": "NCSL / AFDC State Laws and Incentives",
+        "sourceUrl": "https://afdc.energy.gov/laws/all?state=WA",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "FL": {
+        "stateCode": "FL",
+        "stateName": "Florida",
+        "annualEvRegistrationFee": 0,
+        "annualPhevRegistrationFee": 0,
+        "annualHevRegistrationFee": 0,
+        "statutoryCitation": "None enacted as of Oct 2026",
+        "stateCleanVehicleRebate": 0,
+        "rebateStatus": "none",
+        "source": "NCSL / AFDC State Laws and Incentives",
+        "sourceUrl": "https://afdc.energy.gov/laws/all?state=FL",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      },
+      "NY": {
+        "stateCode": "NY",
+        "stateName": "New York",
+        "annualEvRegistrationFee": 0,
+        "annualPhevRegistrationFee": 0,
+        "annualHevRegistrationFee": 0,
+        "statutoryCitation": "None enacted",
+        "stateCleanVehicleRebate": 2000,
+        "rebateProgramName": "Drive Clean Rebate (NYSERDA)",
+        "rebateStatus": "active",
+        "source": "NCSL / AFDC State Laws and Incentives",
+        "sourceUrl": "https://afdc.energy.gov/laws/all?state=NY",
+        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "verifiedOn": "2026-10-18"
+      }
+    }
+  }
+}
