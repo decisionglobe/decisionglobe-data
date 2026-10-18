@@ -1,31 +1,31 @@
 {
-  "packageVersion": "v2026.1018.131708",
-  "generatedAtIso": "2026-10-18T13:17:30.618Z",
+  "packageVersion": "v2026.1018.142107",
+  "generatedAtIso": "2026-10-18T14:21:17.687Z",
   "buildContext": "local-staging-worker",
   "status": "VALIDATED",
   "provenance": {
     "epa": {
       "source": "EPA FuelEconomy.gov",
       "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
-      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "retrievedAt": "2026-10-18T14:21:17.687Z",
       "vehicleCount": 19
     },
     "eia": {
       "source": "U.S. Energy Information Administration (EIA)",
       "sourceUrl": "https://www.eia.gov/opendata/",
-      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "retrievedAt": "2026-10-18T14:21:17.687Z",
       "stateCount": 51
     },
     "stations": {
       "source": "NLR Alternative Fuel Stations API",
       "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
-      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "retrievedAt": "2026-10-18T14:21:17.687Z",
       "totalStationsUs": 62437
     },
     "openei": {
       "source": "OpenEI Utility Rate Database (URDB v7)",
       "sourceUrl": "https://openei.org/services/doc/rest/util_rates/",
-      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "retrievedAt": "2026-10-18T14:21:17.687Z",
       "jurisdictionsCount": 10,
       "operatingUtilitiesCount": 12,
       "rateSchedulesCount": 12,
@@ -34,7 +34,7 @@
     "policy": {
       "source": "AFDC / NCSL Statutory Database",
       "sourceUrl": "https://afdc.energy.gov/laws/state",
-      "retrievedAt": "2026-10-18T13:17:30.618Z",
+      "retrievedAt": "2026-10-18T14:21:17.687Z",
       "policyStateCount": 51
     },
     "classificationSummary": {
@@ -798,7 +798,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.CA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SCA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T13:17:10.289Z",
+        "retrievedAtIso": "2026-10-18T14:21:09.812Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -904,7 +904,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SFL_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T13:17:15.410Z",
+        "retrievedAtIso": "2026-10-18T14:21:15.227Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1388,7 +1388,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.NY-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SNY_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T13:17:14.267Z",
+        "retrievedAtIso": "2026-10-18T14:21:13.800Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1620,7 +1620,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.TX-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_STX_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T13:17:13.064Z",
+        "retrievedAtIso": "2026-10-18T14:21:12.874Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -1705,7 +1705,7 @@
         "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SWA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T13:17:16.489Z",
+        "retrievedAtIso": "2026-10-18T14:21:16.975Z",
         "verifiedOn": "2026-10-18",
         "electricityDataSource": "live_observation",
         "gasolineDataSource": "live_observation",
@@ -2982,6 +2982,186 @@
         "retrievedAtIso": "2026-10-18T00:00:00.000Z",
         "verifiedOn": "2026-10-18"
       }
+    }
+  },
+  "chargerInstallation": {
+    "snapshotVersion": "2026.10-lkg-evse-v1",
+    "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+    "verifiedOn": "2026-10-18",
+    "source": "NREL / DOE EVSE Benchmarks & Utility Rebate Catalog",
+    "sourceUrl": "https://www.nrel.gov/transportation/evse-cost-benchmarks.html",
+    "hardwareBenchmarks": {
+      "standard": {
+        "tier": "mid_range_smart",
+        "amperage": 40,
+        "kwOutput": 9.6,
+        "estimatedEquipmentCostDollars": 550,
+        "features": [
+          "240V NEMA 14-50 or hardwired",
+          "WiFi scheduled charging",
+          "UL / Energy Star certified"
+        ]
+      },
+      "smart": {
+        "tier": "premium_smart",
+        "amperage": 48,
+        "kwOutput": 11.5,
+        "estimatedEquipmentCostDollars": 700,
+        "features": [
+          "48A hardwired only",
+          "Dynamic load sharing",
+          "Solar charging integration",
+          "Utility DR program compatible"
+        ]
+      }
+    },
+    "installationBenchmarks": {
+      "standard": {
+        "difficulty": "standard_close_to_panel",
+        "typicalCostDollars": 850,
+        "description": "Dedicated 240V 50A circuit within 25 feet of existing breaker panel with adequate spare capacity"
+      },
+      "complex": {
+        "difficulty": "medium_run",
+        "typicalCostDollars": 1450,
+        "description": "Extended conduit run (> 50 feet), drywall patching, or subpanel addition for detached garage"
+      },
+      "panel_upgrade": {
+        "difficulty": "panel_upgrade_required",
+        "typicalCostDollars": 2600,
+        "description": "Main electric service panel upgrade from 100A to 200A to accommodate dedicated EV continuous load"
+      }
+    },
+    "federalSection30cRules": {
+      "maxCreditDollars": 1000,
+      "creditPercentage": 0.3,
+      "censusTractRestricted": true,
+      "defaultAppliedCreditDollars": 0,
+      "statutoryCitation": "26 U.S. Code § 30C"
+    },
+    "utilityRebates": [
+      {
+        "rebateId": "pge-residential-evse",
+        "utilityOrState": "Pacific Gas & Electric (PG&E)",
+        "stateCode": "CA",
+        "programName": "PG&E EV Life Charging Incentive",
+        "hardwareRebateDollars": 500,
+        "wiringInstallationRebateDollars": 500,
+        "maxTotalRebateDollars": 1000,
+        "requiresSmartEvse": true,
+        "requiresTouTariff": true,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.pge.com/ev-rebates",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "rebateId": "sce-charge-ready-home",
+        "utilityOrState": "Southern California Edison (SCE)",
+        "stateCode": "CA",
+        "programName": "SCE Charge Ready Home Incentive",
+        "hardwareRebateDollars": 400,
+        "wiringInstallationRebateDollars": 400,
+        "maxTotalRebateDollars": 800,
+        "requiresSmartEvse": true,
+        "requiresTouTariff": true,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.sce.com/charge-ready",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "rebateId": "fpl-evolution-home",
+        "utilityOrState": "Florida Power & Light (FPL)",
+        "stateCode": "FL",
+        "programName": "FPL EVolution Home Charger Installation",
+        "hardwareRebateDollars": 0,
+        "wiringInstallationRebateDollars": 0,
+        "maxTotalRebateDollars": 0,
+        "requiresSmartEvse": true,
+        "requiresTouTariff": false,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.fpl.com/clean-energy/electric-vehicles/evolution/home.html",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "rebateId": "eversource-ct-managed-charging",
+        "utilityOrState": "Eversource Energy",
+        "stateCode": "CT",
+        "programName": "Eversource Managed EV Charging Program",
+        "hardwareRebateDollars": 500,
+        "wiringInstallationRebateDollars": 500,
+        "maxTotalRebateDollars": 1000,
+        "requiresSmartEvse": true,
+        "requiresTouTariff": true,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.eversource.com/content/ct-c/residential/save-money-energy/clean-energy-options/electric-vehicles",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "rebateId": "dte-charging-forward",
+        "utilityOrState": "DTE Energy",
+        "stateCode": "MI",
+        "programName": "DTE Charging Forward Residential EV Rebate",
+        "hardwareRebateDollars": 500,
+        "wiringInstallationRebateDollars": 0,
+        "maxTotalRebateDollars": 500,
+        "requiresSmartEvse": true,
+        "requiresTouTariff": true,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.dteenergy.com/chargingforward",
+        "verifiedOn": "2026-10-18"
+      },
+      {
+        "rebateId": "duke-carolinas-charger-prep",
+        "utilityOrState": "Duke Energy Carolinas",
+        "stateCode": "NC",
+        "programName": "Duke Energy Residential Charger Prep Credit",
+        "hardwareRebateDollars": 0,
+        "wiringInstallationRebateDollars": 1133,
+        "maxTotalRebateDollars": 1133,
+        "requiresSmartEvse": false,
+        "requiresTouTariff": true,
+        "rebateStatus": "active",
+        "sourceUrl": "https://www.duke-energy.com/home/products/ev-carolina",
+        "verifiedOn": "2026-10-18"
+      }
+    ]
+  },
+  "dcfcPricing": {
+    "national_benchmark": {
+      "network": "National Commercial DCFC Average",
+      "perKwhBaselineDollars": 0.46,
+      "pricingStructure": "per_kwh",
+      "sessionFeeDollars": 0,
+      "idleFeePerMinuteDollars": 0.5,
+      "provenance": "model_estimate",
+      "notes": "National weighted average across Electrify America, EVgo, and Tesla non-member peak rates"
+    },
+    "electrify_america": {
+      "network": "Electrify America (Guest/Pass)",
+      "perKwhBaselineDollars": 0.48,
+      "pricingStructure": "per_kwh",
+      "sessionFeeDollars": 0,
+      "idleFeePerMinuteDollars": 0.4,
+      "provenance": "model_estimate",
+      "notes": "Standard Guest tier without Pass+ subscription ($7.00/mo reduces rate to ~$0.36/kWh)"
+    },
+    "tesla_supercharger": {
+      "network": "Tesla Supercharger (Non-Tesla / Member)",
+      "perKwhBaselineDollars": 0.42,
+      "pricingStructure": "per_kwh",
+      "sessionFeeDollars": 0,
+      "idleFeePerMinuteDollars": 1,
+      "provenance": "model_estimate",
+      "notes": "Tesla owner off-peak baseline ~$0.32/kWh; peak/non-Tesla driver baseline ~$0.44/kWh"
+    },
+    "evgo": {
+      "network": "EVgo (Standard Pay-As-You-Go)",
+      "perKwhBaselineDollars": 0.49,
+      "pricingStructure": "per_kwh",
+      "sessionFeeDollars": 0.99,
+      "idleFeePerMinuteDollars": 0.5,
+      "provenance": "model_estimate",
+      "notes": "Includes standard session fee for guest users in states permitting per-kWh pricing"
     }
   }
 }
