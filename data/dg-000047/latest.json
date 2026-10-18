@@ -1,31 +1,31 @@
 {
-  "packageVersion": "v2026.1018.193742",
-  "generatedAtIso": "2026-10-18T19:39:06.878Z",
-  "buildContext": "47b6e7d84add091ac88552e63896258fb23916aa",
+  "packageVersion": "v2026.1018.194138",
+  "generatedAtIso": "2026-10-18T19:41:43.404Z",
+  "buildContext": "55ea9d03daa088491030a5e260d156151e3224c4",
   "status": "VALIDATED",
   "provenance": {
     "epa": {
       "source": "EPA FuelEconomy.gov",
       "sourceUrl": "https://www.fueleconomy.gov/ws/rest/vehicle/",
-      "retrievedAt": "2026-10-18T19:39:06.878Z",
+      "retrievedAt": "2026-10-18T19:41:43.404Z",
       "vehicleCount": 19
     },
     "eia": {
       "source": "U.S. Energy Information Administration (EIA)",
       "sourceUrl": "https://www.eia.gov/opendata/",
-      "retrievedAt": "2026-10-18T19:39:06.878Z",
+      "retrievedAt": "2026-10-18T19:41:43.404Z",
       "stateCount": 51
     },
     "stations": {
       "source": "NLR Alternative Fuel Stations API",
       "sourceUrl": "https://developer.nlr.gov/docs/transportation/alt-fuel-stations-v1/",
-      "retrievedAt": "2026-10-18T19:39:06.878Z",
+      "retrievedAt": "2026-10-18T19:41:43.404Z",
       "totalStationsUs": 62437
     },
     "openei": {
       "source": "OpenEI Utility Rate Database (URDB v7)",
       "sourceUrl": "https://openei.org/services/doc/rest/util_rates/",
-      "retrievedAt": "2026-10-18T19:39:06.878Z",
+      "retrievedAt": "2026-10-18T19:41:43.404Z",
       "jurisdictionsCount": 10,
       "operatingUtilitiesCount": 12,
       "rateSchedulesCount": 12,
@@ -34,14 +34,14 @@
     "policy": {
       "source": "AFDC / NCSL Statutory Database",
       "sourceUrl": "https://afdc.energy.gov/laws/state",
-      "retrievedAt": "2026-10-18T19:39:06.878Z",
+      "retrievedAt": "2026-10-18T19:41:43.404Z",
       "policyStateCount": 51
     },
     "classificationSummary": {
-      "liveObservationsCount": 0,
-      "snapshotVerifiedCount": 61,
+      "liveObservationsCount": 10,
+      "snapshotVerifiedCount": 51,
       "modelEstimatesCount": 41,
-      "summary": "Live observations: 0 | Verified snapshots: 61 | Model estimates: 41"
+      "summary": "Live observations: 10 | Verified snapshots: 51 | Model estimates: 41"
     }
   },
   "vehicles": {
@@ -798,10 +798,10 @@
         "eiaSeriesElectricity": "ELEC.SALES.CA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SCA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T19:41:38.552Z",
         "verifiedOn": "2026-10-18",
-        "electricityDataSource": "snapshot_verified",
-        "gasolineDataSource": "snapshot_verified",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
         "evTouDataSource": "utility_tariff_snapshot"
       },
       "CO": {
@@ -891,8 +891,8 @@
       "FL": {
         "stateCode": "FL",
         "stateName": "Florida",
-        "residentialElectricityCentsPerKwh": 15.4,
-        "residentialElectricityDollarsPerKwh": 0.154,
+        "residentialElectricityCentsPerKwh": 15.03,
+        "residentialElectricityDollarsPerKwh": 0.1503,
         "evTouOffPeakDollarsPerKwh": 0.102,
         "regularGasolineDollarsPerGallon": 3.982,
         "premiumGasolineDollarsPerGallon": 4.41,
@@ -904,10 +904,10 @@
         "eiaSeriesElectricity": "ELEC.SALES.FL-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SFL_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T19:41:41.715Z",
         "verifiedOn": "2026-10-18",
-        "electricityDataSource": "snapshot_verified",
-        "gasolineDataSource": "snapshot_verified",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
         "evTouDataSource": "utility_tariff_snapshot"
       },
       "GA": {
@@ -1375,8 +1375,8 @@
       "NY": {
         "stateCode": "NY",
         "stateName": "New York",
-        "residentialElectricityCentsPerKwh": 24.5,
-        "residentialElectricityDollarsPerKwh": 0.245,
+        "residentialElectricityCentsPerKwh": 29.9,
+        "residentialElectricityDollarsPerKwh": 0.299,
         "evTouOffPeakDollarsPerKwh": 0.165,
         "regularGasolineDollarsPerGallon": 4.353,
         "premiumGasolineDollarsPerGallon": 4.89,
@@ -1388,10 +1388,10 @@
         "eiaSeriesElectricity": "ELEC.SALES.NY-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SNY_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T19:41:40.591Z",
         "verifiedOn": "2026-10-18",
-        "electricityDataSource": "snapshot_verified",
-        "gasolineDataSource": "snapshot_verified",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
         "evTouDataSource": "utility_tariff_snapshot"
       },
       "NC": {
@@ -1607,8 +1607,8 @@
       "TX": {
         "stateCode": "TX",
         "stateName": "Texas",
-        "residentialElectricityCentsPerKwh": 14.8,
-        "residentialElectricityDollarsPerKwh": 0.148,
+        "residentialElectricityCentsPerKwh": 15.88,
+        "residentialElectricityDollarsPerKwh": 0.1588,
         "evTouOffPeakDollarsPerKwh": 0.095,
         "regularGasolineDollarsPerGallon": 3.779,
         "premiumGasolineDollarsPerGallon": 4.22,
@@ -1620,10 +1620,10 @@
         "eiaSeriesElectricity": "ELEC.SALES.TX-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_STX_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T19:41:39.728Z",
         "verifiedOn": "2026-10-18",
-        "electricityDataSource": "snapshot_verified",
-        "gasolineDataSource": "snapshot_verified",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
         "evTouDataSource": "utility_tariff_snapshot"
       },
       "UT": {
@@ -1692,8 +1692,8 @@
       "WA": {
         "stateCode": "WA",
         "stateName": "Washington",
-        "residentialElectricityCentsPerKwh": 12.1,
-        "residentialElectricityDollarsPerKwh": 0.121,
+        "residentialElectricityCentsPerKwh": 14.71,
+        "residentialElectricityDollarsPerKwh": 0.1471,
         "evTouOffPeakDollarsPerKwh": 0.088,
         "regularGasolineDollarsPerGallon": 5.377,
         "premiumGasolineDollarsPerGallon": 5.72,
@@ -1705,10 +1705,10 @@
         "eiaSeriesElectricity": "ELEC.SALES.WA-RES.M",
         "eiaSeriesGasoline": "EMM_EPMR_PTE_SWA_DPG",
         "source": "U.S. Energy Information Administration (EIA)",
-        "retrievedAtIso": "2026-10-18T00:00:00.000Z",
+        "retrievedAtIso": "2026-10-18T19:41:42.603Z",
         "verifiedOn": "2026-10-18",
-        "electricityDataSource": "snapshot_verified",
-        "gasolineDataSource": "snapshot_verified",
+        "electricityDataSource": "live_observation",
+        "gasolineDataSource": "live_observation",
         "evTouDataSource": "utility_tariff_snapshot"
       },
       "WV": {
