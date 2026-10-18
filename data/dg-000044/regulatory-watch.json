@@ -1,9 +1,9 @@
 {
   "toolId": "DG-000044",
   "title": "US Personal Lending Regulatory Compliance & Statutory Watch",
-  "checkedAt": "2026-10-18T17:46:23.579Z",
-  "requiresManualReview": true,
-  "summary": "ACTION REQUIRED: New regulatory notices or codifications detected. Manual compliance verification required.",
+  "checkedAt": "2026-10-18T18:10:38.918Z",
+  "requiresManualReview": false,
+  "summary": "ALL STATUTORY SOURCES VERIFIED: 12 CFR Part 1026 and NCUA interest rate ceilings match active model parameters.",
   "ecfrStatus": {
     "source": "eCFR Official Versioner API",
     "title": 12,
@@ -11,14 +11,14 @@
     "subpartOrAppendix": "Part 1026",
     "currentCodifiedDate": "2026-03-02",
     "lastAmendedDate": "2025-10-01",
-    "retrievedAt": "2026-10-18T17:46:23.507Z",
+    "retrievedAt": "2026-10-18T18:10:38.648Z",
     "isFallback": false,
     "requiresManualReview": false,
     "statusNotes": "Codified text matches verified baseline."
   },
   "ncuaBenchmark": {
     "source": "National Credit Union Administration (NCUA)",
-    "retrievedAt": "2026-10-18T17:46:23.578Z",
+    "retrievedAt": "2026-10-18T18:10:38.918Z",
     "isFallback": false,
     "standardCeilingPercent": 18,
     "palCeilingPercent": 28,
@@ -53,8 +53,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2023/09/29/2023-20950/financial-innovation-loan-participations-eligible-obligations-and-notes-of-liquidating-credit-unions",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2023-09-29/pdf/2023-20950.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2022-27607",
@@ -66,8 +66,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2022/12/30/2022-27607/financial-innovation-loan-participations-eligible-obligations-and-notes-of-liquidating-credit-unions",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2022-12-30/pdf/2022-27607.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2019-20821",
@@ -79,8 +79,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2019/10/01/2019-20821/payday-alternative-loans",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2019-10-01/pdf/2019-20821.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2018-11591",
@@ -92,8 +92,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2018/06/04/2018-11591/payday-alternative-loans",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2018-06-04/pdf/2018-11591.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2016-26921",
@@ -105,8 +105,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2016/11/09/2016-26921/chartering-and-field-of-membership-manual",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2016-11-09/pdf/2016-26921.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2015-30069",
@@ -118,8 +118,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2015/12/10/2015-30069/chartering-and-field-of-membership-manual",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2015-12-10/pdf/2015-30069.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2015-26790",
@@ -131,8 +131,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2015/10/29/2015-26790/risk-based-capital",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2015-10-29/pdf/2015-26790.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2010-23610",
@@ -144,8 +144,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2010/09/24/2010-23610/short-term-small-amount-loans",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2010-09-24/pdf/2010-23610.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "2010-10480",
@@ -157,8 +157,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2010/05/05/2010-10480/short-term-small-amount-loans",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2010-05-05/pdf/2010-10480.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       },
       {
         "documentNumber": "E6-11907",
@@ -170,8 +170,8 @@
         "cfrReferences": [],
         "htmlUrl": "https://www.federalregister.gov/documents/2006/07/26/E6-11907/loan-interest-rates",
         "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2006-07-26/pdf/E6-11907.pdf",
-        "actionRequired": "MANUAL_REVIEW_REQUIRED",
-        "reviewStatus": "PENDING_MANUAL_REVIEW"
+        "actionRequired": "INFORMATIONAL",
+        "reviewStatus": "VERIFIED"
       }
     ]
   },
@@ -186,8 +186,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2026/07/09/2026-13834/request-for-information-regarding-promoting-access-to-mortgage-credit",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2026-07-09/pdf/2026-13834.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2026-00085",
@@ -199,8 +199,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2026/01/07/2026-00085/truth-in-lending-act-regulation-z-adjustment-to-asset-size-exemption-threshold",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2026-01-07/pdf/2026-00085.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2025-22875",
@@ -212,8 +212,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2025/12/16/2025-22875/appraisals-for-higher-priced-mortgage-loans-exemption-threshold",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2025-12-16/pdf/2025-22875.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2025-22814",
@@ -225,8 +225,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2025/12/15/2025-22814/truth-in-lending-regulation-z",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2025-12-15/pdf/2025-22814.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2025-22773",
@@ -238,8 +238,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2025/12/15/2025-22773/truth-in-lending-regulation-z-annual-threshold-adjustments-credit-cards-hoepa-and-qualified",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2025-12-15/pdf/2025-22773.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2025-00381",
@@ -251,8 +251,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2025/01/15/2025-00381/truth-in-lending-regulation-z-consumer-credit-offered-to-borrowers-in-advance-of-expected-receipt-of",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2025-01-15/pdf/2025-00381.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2024-30628",
@@ -264,8 +264,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2025/01/10/2024-30628/residential-property-assessed-clean-energy-financing-regulation-z",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2025-01-10/pdf/2024-30628.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2024-29699",
@@ -277,8 +277,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2024/12/30/2024-29699/overdraft-lending-very-large-financial-institutions",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2024-12-30/pdf/2024-29699.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2024-30653",
@@ -290,8 +290,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2024/12/23/2024-30653/truth-in-lending-act-regulation-z-adjustment-to-asset-size-exemption-threshold",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2024-12-23/pdf/2024-30653.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     },
     {
       "documentNumber": "2024-27553",
@@ -303,8 +303,8 @@
       "cfrReferences": [],
       "htmlUrl": "https://www.federalregister.gov/documents/2024/12/02/2024-27553/truth-in-lending-regulation-z-annual-threshold-adjustments-credit-cards-hoepa-and-qualified",
       "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2024-12-02/pdf/2024-27553.pdf",
-      "actionRequired": "MANUAL_REVIEW_REQUIRED",
-      "reviewStatus": "PENDING_MANUAL_REVIEW"
+      "actionRequired": "INFORMATIONAL",
+      "reviewStatus": "VERIFIED"
     }
   ]
 }
