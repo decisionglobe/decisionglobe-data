@@ -1,7 +1,7 @@
 {
   "toolId": "DG-000044",
   "title": "US Personal Lending Regulatory Compliance & Statutory Watch",
-  "checkedAt": "2026-10-18T18:10:38.918Z",
+  "checkedAt": "2026-10-18T18:16:57.075Z",
   "requiresManualReview": false,
   "summary": "ALL STATUTORY SOURCES VERIFIED: 12 CFR Part 1026 and NCUA interest rate ceilings match active model parameters.",
   "ecfrStatus": {
@@ -11,14 +11,14 @@
     "subpartOrAppendix": "Part 1026",
     "currentCodifiedDate": "2026-03-02",
     "lastAmendedDate": "2025-10-01",
-    "retrievedAt": "2026-10-18T18:10:38.648Z",
+    "retrievedAt": "2026-10-18T18:16:56.850Z",
     "isFallback": false,
     "requiresManualReview": false,
     "statusNotes": "Codified text matches verified baseline."
   },
   "ncuaBenchmark": {
     "source": "National Credit Union Administration (NCUA)",
-    "retrievedAt": "2026-10-18T18:10:38.918Z",
+    "retrievedAt": "2026-10-18T18:16:56.943Z",
     "isFallback": false,
     "standardCeilingPercent": 18,
     "palCeilingPercent": 28,
